@@ -70,6 +70,7 @@ cmd_echo(void)
                 fprintf(fp, "%s ", args[optind++]);
 
         fprintf(fp, "\n");
+        fprintf(fp, "test\n");
 }
 
 /* 
